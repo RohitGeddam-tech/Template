@@ -1,0 +1,38 @@
+.package {
+  width: 100%;
+  .container {
+    .Slider {
+      .Slide {
+        .slideBox {
+          width: 400px;
+          margin: 0 20px;
+          border: 1px solid #e6e3e3;
+          box-sizing: border-box;
+          box-shadow: 4px 5px 14px rgba(0, 0, 0, 0.09);
+          border-radius: 4px;
+          margin-bottom: 30px;
+          img{
+            width: 400px;
+          }
+          .boxPadding {
+            padding: 15px;
+            .title-heading {
+              font-size: 18px;
+              line-height: 24px;
+              display: flex;
+              justify-content: space-between;
+            }
+            .para {
+              font-size: 16px;
+              margin-top: 0;
+              color: #919eab;
+            }
+          }
+        }
+        .slideBox:first-child{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

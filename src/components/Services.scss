@@ -1,0 +1,34 @@
+.service {
+  width: 100%;
+  .container {
+    .serviceDetails {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      padding-bottom: 20px;
+      .serviceBox {
+        width: 32%;
+        margin: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+        .serviceBoxDetails {
+          width: 75%;
+          .heading {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+          }
+          .para {
+            font-size: 16px;
+            margin-top: 0;
+            color: #919eab;
+          }
+        }
+      }
+    }
+  }
+}

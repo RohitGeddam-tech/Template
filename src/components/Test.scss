@@ -1,0 +1,52 @@
+.test {
+  width: 100%;
+  .container {
+    .Slider {
+      .Slide {
+        .slideBox {
+          margin: 0 20px;
+          border: 1px solid #e6e3e3;
+          box-sizing: border-box;
+          box-shadow: 4px 5px 14px rgba(0, 0, 0, 0.09);
+          border-radius: 4px;
+          margin-bottom: 30px;
+          .boxPadding {
+            width: 400px !important;
+            padding: 15px;
+            .title-heading {
+              font-size: 16px;
+              line-height: 27px;
+              display: flex;
+              justify-content: space-between;
+              text-transform: none;
+            }
+            .para {
+              font-size: 16px;
+              font-style: italic;
+              margin-top: 0;
+              color: #919eab;
+            }
+            .cardIntro {
+              width: 170px;
+              margin-top: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              span {
+                font-family: Helvetica;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                color: #202020;
+                line-height: 27px;
+              }
+            }
+          }
+        }
+        .slideBox:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

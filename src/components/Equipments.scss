@@ -1,0 +1,30 @@
+.equipments {
+  width: 100%;
+  .container {
+    .heading {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    .Slider{
+      .Slide {
+        .equipCard {
+          margin: 0 15px;
+          .heading {
+            width: 360px;
+            font-size: 18px;
+            line-height: 24px;
+          }
+          .para {
+            width: 98%;
+            font-size: 16px;
+            margin-top: 0;
+            color: #919eab;
+          }
+        }
+        .equipCard:first-child{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

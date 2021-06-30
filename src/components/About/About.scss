@@ -1,0 +1,46 @@
+.About1 {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    .aboutImg {
+      width: 35%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      .para {
+        font-size: 16px;
+        line-height: 21px;
+        color: #0a73db;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+    }
+    .aboutDetail {
+      width: 62%;
+      .heading {
+        font-size: 30px;
+        line-height: 34px;
+        text-transform: uppercase;
+        color: #0a73db;
+        margin-top: 15px;
+        margin-bottom: 20px;
+      }
+      .para {
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+    }
+    @media (max-width: 1160px) {
+      .aboutDetail {
+        width: 58%;
+      }
+    }
+  }
+}
